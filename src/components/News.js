@@ -27,7 +27,6 @@ const News = (props)=>{
         setTotalResults(parsedData.totalResults)
         setLoading(false)
         props.setProgress(100);
-        console.log("ho jaa"+url);
     }
 
     useEffect(() => {
